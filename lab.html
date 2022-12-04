@@ -86,16 +86,247 @@
     <main class="lab">
       <div class="hero-image">
         <div class="img-container">
-          <img src="build/img/home/us.webp" alt="us" />
+          <img src="build/img/home/laboratory.webp" alt="us" />
         </div>
       </div>
       <div class="lab-title">
         <h2>Laboratorio</h2>
       </div>
       <div class="lab-description">
-        <p>
-          
-        </p>
+        <div class="lab-description-grid">
+          <div class="lab-description-logo">
+            <img src="build/img/logo/conceptLabWhite.webp" alt="logo" />
+          </div>
+          <div class="lab-description-text">
+            <p>
+              Contribuye a la prevención y estudio de diversas patologías,
+              siendo un eslabón fundamental en el equipo de salud, llevango a
+              cabo distintas técnicas, siguiendo 3 etapas principales: análisis,
+              diagnóstico, y seguimiento para el tratamiento de una patología
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="lab-procedures">
+        <p>Procedimientos</p>
+        <ul>
+          <li class="lab-list">Urocultivo</li>
+          <p>
+            Análisis para determinar si hay bacterias presentes en la orina
+            mediante el análisis del medio de cultivo en el que se encuentra la
+            muestra
+          </p>
+          <li class="lab-list">Examen general de orina</li>
+          <p>
+            Análisis de los aspectos físicos químicos y microscópicos de la
+            orina
+          </p>
+          <li class="lab-list">Coproparasitoscopico</li>
+          <p>
+            Análisis de los aspectos físicos y microscópicos de la materia fecal
+            para detectar la presencia de parásitos gastrointestinales,
+            hepáticos o pulmonares
+          </p>
+          <li class="lab-list">Tiempos de coagulación</li>
+          <p>
+            Examen que mide la capacidad y el tiempo que tarda la sangre en
+            formar un coágulo, mediante el análisis de la muestra determinando
+            los factores de coagulación presentes.
+          </p>
+          <li class="lab-list">Biometría hemática</li>
+          <p>Análisis completo de la sangre y sus componentes</p>
+          <li class="lab-list">Química sanguínea</li>
+          <p>
+            Serie de pruebas que analizan los componentes del suero de la sangre
+          </p>
+          <li class="lab-list">Perfil hormonal</li>
+          <p>
+            Prueba mediante análisis sanguíneo específico para la medición
+            hormonal y capacidad de fertilidad, así como el estado y función de
+            los órganos que segregan hormonas ya sean masculinas o femeninas
+          </p>
+          <li class="lab-list">Perfil tiroideo</li>
+          <p>
+            Pruebas sanguíneas para la evaluación y función de la glándula
+            tiroides, así como para detectar la presencia de patologías
+            relacionadas con esta
+          </p>
+        </ul>
+      </div>
+      <div class="lab-procedures-list">
+        <div class="lab-procedures-list-head">
+          <h2>
+            <span class="lab-head-1">Directorio de</span>
+            <span class="lab-head-2">estudios clínicos</span>
+          </h2>
+          <div class="bottom-area"></div>
+          <div class="lab-head-logo">
+            <img src="build/img/icons/lab2Blue.webp" alt="lab" />
+          </div>
+        </div>
+      </div>
+      <!-- PAGINATION -->
+      <div class="lab-pagination">
+        <div class="panel">
+          <div class="body">
+            <div class="input-group">
+              <label for="searchBox">Filtrar</label>
+              <input type="search" id="searchBox" placeholder="Filtrar..." />
+            </div>
+          </div>
+        </div>
+        <table class="myTable table hover">
+          <tbody>
+            <!-- <tr>
+              <th>USER ID</th>
+              <th>ID</th>
+            </tr> -->
+            <tr>
+              <td>Alfa Hidroxiprogesterona</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">547.50</div></td>
+              <td class="lab-column">Ac. Anti-citoplasma de neutrófilos citoplasmáticos</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,184.00</div></td>
+            </tr>
+            <tr>
+              <td>Hidroxicorticoesteroides en Orina de 24 horas</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,007.50</div></td>
+              <td class="lab-column">Ac. Anti-Coloide Tiroideo</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,170.00</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Ácido Desoxirribonucleico de Doble Cadena</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">807.00</div></td>
+              <td class="lab-column">Ac. Anti-Dengue IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,175.98</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Amiba</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">642.00</div></td>
+              <td class="lab-column">Ac. Anti-Descarboxilasa del Ácido Glutámico (GAD)</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,485.00</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Antígeno Cápside Epstein Barr IgG</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,014.00</div></td>
+              <td class="lab-column">DNA Desnaturalizado</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,122.00</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Antígeno Cápside Epstein Barr IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,014.00</div></td>
+              <td class="lab-column">Ac. Anti-Endomisiales IgA</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,284.00</div></td>
+            </tr>
+            <tr>
+              <td>Central Virus Hepatitis B (Ac. Anti-HBcAg) Totales</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,908.00</div></td>
+              <td class="lab-column">Anti-Escleroderma (Scl-70)</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">987.50</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Antígeno Central Virus Hepatitis B</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">4,770.00</div></td>
+              <td class="lab-column">Anti-Fosfolípidos IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">981.01</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Antígeno Virus Hepatitis A IgG</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">710.00</div></td>
+              <td class="lab-column">Anti-Helictobacter pylori IgA</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">583.00</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Antígeno Virus Hepatitis A IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">580.00</div></td>
+              <td class="lab-column">Anti-Helictobacter pylori IgG</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">999.00</div></td>
+            </tr>
+            <tr>
+              <td>Antígeno Virus Hepatitis C</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">570.00</div></td>
+              <td class="lab-column">Anti-Histona</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,685.00</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Antígeno Virus Hepatitis D Totales</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">2,590.00</div></td>
+              <td class="lab-column">Ac. Anti-Insulina</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,001.00</div></td>
+            </tr>
+            <tr>
+              <td>Glicoproteína IgA, IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,418.00</div></td>
+              <td class="lab-column">Anti-Leptospira IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,143.00</div></td>
+            </tr>
+            <tr>
+              <td>Glicoproteína IgG</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">2,605.00</div></td>
+              <td class="lab-column">Ac. Anti-Listeria</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">4,769.00</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Brucella IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,144.00</div></td>
+              <td class="lab-column">Anti-Membrana Basal Glomerular</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1.114.00</div></td>
+            </tr>
+            <tr>
+              <td>Brucella por Rosa de Bengala</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">466.00</div></td>
+              <td class="lab-column">Anti-Mielina</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,950.00</div></td>
+            </tr>
+            <tr>
+              <td>Cardiolipinas IgA, IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">999.50</div></td>
+              <td class="lab-column">Anti Mitocondriales</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">908.00</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Células Parietales</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,216.00</div></td>
+              <td class="lab-column">Anti Musculo Liso</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">966.00</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Chagas (Ac. AntiTrypanosoma cruzi)</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,242.00</div></td>
+              <td class="lab-column">Anti Mycobacterium Tuberculosis IgM & IgG</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,197.00</div></td>
+            </tr>
+            <tr>
+              <td>Anti-Centrómero por Inmunoblot</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">950.00</div></td>
+              <td class="lab-column">Mycoplasma Pneumoniae IgG & IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,421.00</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Chikungunya IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">2,550.00</div></td>
+              <td class="lab-column">Anti Nucleares (ANA)</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">615.00</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Chlamydia trachomatis IgA, IgG e IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">2,207.10</div></td>
+              <td class="lab-column">Nucleosoma Totales</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1.178.00</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Cisticerco</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">662.00</div></td>
+              <td class="lab-column">Parotiditis IgG & IgM</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,049.00</div></td>
+            </tr>
+            <tr>
+              <td>Ac. Anti-Citomegalovirus</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">1,236.00</div></td>
+              <td class="lab-column">Anti Parvovirus B 19</td>
+              <td class="lab-price"><div class="price-symbol">$</div><div class="price-amount">2,218.00</div></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </main>
 
@@ -162,6 +393,18 @@
       crossorigin="anonymous"
     ></script>
     <!-- Custom JS -->
-    <script src="build/js/bundle.min.js"></script>
+    <script src="build/js/bundle2.min.js"></script>
+    <!-- Pagination -->
+    <script>
+      let options = {
+        numberPerPage: 8, //Cantidad de datos por pagina
+        goBar: true, //Barra donde puedes digitar el numero de la pagina al que quiere ir
+        pageCounter: true, //Contador de paginas, en cual estas, de cuantas paginas
+      };
+      let filterOptions = {
+        el: "#searchBox", //Caja de texto para filtrar, puede ser una clase o un ID
+      };
+      paginate.init(".myTable", options, filterOptions);
+    </script>
   </body>
 </html>
